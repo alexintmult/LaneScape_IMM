@@ -5,6 +5,22 @@ using UnityEngine;
 public class CarHealth : MonoBehaviour
 {
     public int car_health = 10;
+    public GameObject crash_screen;
+    
+    private void Start()
+    {
+      crash_screen.SetActive(false);
+    }
+    
+    private void Update()
+    {
+       if(car_health == 0)
+       {
+          crash_screen.SetActive(true);
+          car_health = 10;
+          Time.timeScale = 0;
+          }
+        }
 
     private void OnCollisionEnter(Collision collision)
     {

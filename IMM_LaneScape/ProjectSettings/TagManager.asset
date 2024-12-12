@@ -6,6 +6,7 @@ TagManager:
   tags:
   - collectible
   - Coins
+  - Diamond
   layers:
   - Default
   - TransparentFX

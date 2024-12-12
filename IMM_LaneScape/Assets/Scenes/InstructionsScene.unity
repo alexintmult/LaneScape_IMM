@@ -341,17 +341,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'INSTRUCTIONS
+  m_text: 'How To Play!
 
 
 
 
-    -Avoid obstacles
 
-    -Collect points
 
-    -Have
-    fun :)'
+    -Collect all 5 diamonds
+
+    -If you hit a red
+    cube, you die.
+
+    -Have fun :)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
